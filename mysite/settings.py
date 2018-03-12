@@ -33,7 +33,7 @@ ALLOWED_HOSTS = []
 INSTALLED_APPS = [
     'personal',
     'blog',
-    'django.contrib.admin',
+    'django.contrib.admin', #admin app is installed by default in django.contrib.admin. Therefore we don't need to create admin page.
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',

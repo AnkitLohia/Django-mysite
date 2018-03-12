@@ -3,7 +3,7 @@ from __future__ import unicode_literals
 
 from django.db import models
 
-# Create your models here.
+# Create your models here. Our blog schema will have Title, body and date
 class Post(models.Model):
     title = models.CharField(max_length = 140)
     body = models.TextField()
