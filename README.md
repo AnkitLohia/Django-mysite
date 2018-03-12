@@ -19,3 +19,6 @@ To start migration : python manage.py migrate
 To check the sql that will be run for migration use: python manage.py sqlmigrate blog 0001
 
 Creating Admin account : python manage.py createsuperuser
+
+using https : https://pythonprogramming.net/django-web-server-https-lets-encrypt-ssl/
+We will have to generate certificate using letsencrypt and disable default ports in server.
